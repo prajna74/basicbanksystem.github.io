@@ -1,0 +1,153 @@
+/* CSS Document */
+
+
+.navbar {
+    background-color:rgba(3, 3, 3, 0);
+      
+      z-index: 1000
+  }
+  .navbar .navbar-brand {
+    color: #080808;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color:white;
+  }
+  .navbar .navbar-text {
+    color:white;
+  }
+  .navbar .navbar-text a {
+    color:white;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color:white; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color:white;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color:white;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ecdbff;
+    background-color: white;
+  }
+  .navbar .navbar-toggle {
+    border-color: white;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color:white;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ffffff;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ffffff;
+  }
+  .navbar .navbar-link {
+    color: #ffffff;
+  }
+  .navbar .navbar-link:hover {
+    color: #ecdbff;
+  }
+  
+  @media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: white;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: white;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color:white;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: white;
+    }
+  }
+  
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ecdbff;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ecdbff;
+    background-color: white;
+  }
+  
+  
+  
+  
+  
+  html, 
+  body, 
+  .carousel, 
+  .carousel-inner, 
+  .carousel-inner .item {
+      height: 100%;
+  }
+  
+  
+  
+  /* Changes position of caption */
+  .carousel-caption {
+      top: 30%;
+      bottom: auto;
+  }
+  .heading{font-size: 60px;text-shadow: 2px 2px #ff063d;}
+  .sub-heading{font-size: 30px; text-shadow: 2px 2px #ff063d;}
